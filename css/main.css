@@ -1,0 +1,163 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #222222;
+}
+header {
+	height: 100vh;
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+.container {
+	width: 930px;
+	margin: 0 auto;	
+}
+.logo {
+	margin-top: 41px;
+	float:left;
+}
+
+div {
+		box-sizing: border-box;
+}
+nav {
+	float:right;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.menu li {
+	margin-top: 30px;
+	float:left;
+	display: block;
+	margin-right: 41px;
+	font-size: 14px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.first {
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 180px;
+}
+h1 {
+	margin: 15px;
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.button {
+	background-color: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.title {
+	padding-top: 115px;
+}
+.title h2 {
+	margin: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title p {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+
+}
+.one h3 {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #222222;
+}
+.one p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.services {
+
+}
+.one {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.one:last-child {
+	float: right;
+}
+.one:nth-child(2) {
+	margin-left: 60px;
+}
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+#services {
+	padding-bottom: 120px;
+}
+.works {
+	margin-top: 70px;
+}
+.works img{
+	float: left;
+}
+.works img:last-child {
+	float: right;
+}
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+.imgCenter {
+	text-align:center;
+}
+.pic1 p {
+	/*text-align: right;*/
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.pic1 h3 {
+	font-size: 16px;
+	line-height: 1.55em;
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.pic img {
+
+}
+footer p {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+}
